@@ -4,4 +4,4 @@ A repo which contains tips and tricks for productivity. This includes, but not l
   * Scripts for repetitive tasks
   * Links with articles that focus on productivity
 
-Everyone is welcome to contribute
+Everyone is welcomed to contribute
