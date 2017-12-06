@@ -1,5 +1,5 @@
 ﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
+; This script is used for adding shortcuts and magic words to open certain apps
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #k::
@@ -27,4 +27,10 @@ Return
 
 #q::
 Send +{F10}
+Return
+
+:*:snip::   
+	Run, C:\windows\system32\SnippingTool.exe
+	WinWait, ahk_exe SnippingTool.exe
+Send ^n
 Return
