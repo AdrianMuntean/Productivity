@@ -8,3 +8,9 @@
  setx SOURCE "%USERPROFILE%\Source"
  setx TOOLS "%USERPROFILE%\Tools"
  setx SCRIPTS "%USERPROFILE%\Scripts"
+
+
+ :: Update user variables (shortcuts)
+ setx SS "%USERPROFILE%\Source"      
+ setx TT "%USERPROFILE%\Tools"
+ setx SP "%USERPROFILE%\Scripts"
