@@ -7,3 +7,7 @@ A repo which contains tips and tricks for productivity. This includes, but not l
   * Links with articles that focus on productivity
 
 Everyone is welcomed to contribute
+
+##TODO:
+  * Add Windows shortcuts
+  * Complete MacOS shortcuts
