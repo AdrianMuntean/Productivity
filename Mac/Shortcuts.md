@@ -16,5 +16,17 @@ Source: [Apple support](https://support.apple.com/en-us/HT201236)
 
 * **Command-Option-C** : Place current window to center
 * **Command-Option-F** : Make the current window fullscreen
-* **Command+Control+Option+Arrow Keys** : Move the current window to next display  
-* **Command+Option+Arrow Keys** : Move the current window to left/right/top/buttom half of the screen
+* **Command-Control-Option+Arrow Keys** : Move the current window to next display  
+* **Command-Option-Arrow Keys** : Move the current window to left/right/top/buttom half of the screen
+
+# iTerm2 navigation(requires [iTerm2](https://www.iterm2.com/))
+
+* **Command-T** : Open new tab
+* **Command-Shift-]** : Go to next tab
+* **Command-Shift-[** : Go to previous tab
+* **Command-D** : Split pane left-right
+* **Command-Shift-D** : Split pane top-buttom
+* **Command-]** : Go to next pane
+* **Command-[** : Go to previous pane
+* **Command- +** : Increase font size
+* **Command- -** : Decrease font size
