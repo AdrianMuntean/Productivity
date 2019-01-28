@@ -4,3 +4,5 @@
 alias cds='cd $SOURCE'
 alias cdt='cd $TOOLS'
 alias gt='git status'
+alias showalias='grep ^alias ~/.bashrc'
+alias addalias='vi ~/.bashrc'

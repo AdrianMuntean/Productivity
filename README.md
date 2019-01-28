@@ -8,6 +8,6 @@ A repo which contains tips and tricks for productivity. This includes, but not l
 
 Everyone is welcomed to contribute
 
-## TODO:
+## TODO
+
   * Add Windows shortcuts
-  * Complete MacOS shortcuts
