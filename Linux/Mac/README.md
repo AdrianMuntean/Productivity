@@ -1,3 +1,3 @@
-### [Shortcuts](https://github.com/AdrianMuntean/Productivity/Linux/blob/master/Mac/Shortcuts.md)
+### [Shortcuts](https://github.com/AdrianMuntean/Productivity/blob/master/Linux/Mac/Shortcuts.md)
 
-### [Tools](https://github.com/AdrianMuntean/Productivity/Linux/blob/master/Mac/Tools.md)
+### [Tools](https://github.com/AdrianMuntean/Productivity/blob/master/Linux/Mac/Tools.md)
