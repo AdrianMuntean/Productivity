@@ -22,3 +22,8 @@ Some really useful extensions I use:
    - Make your computer run smoothly by suspending the tabs you aren't using
    - A lightweight extension to reduce chrome's memory footprint. Perfect if you have a lot of tabs open at the same time.
    - Tabs that have not been viewed after a configurable length of time will be automagically suspended in the background
+ * [VisBug](https://chrome.google.com/webstore/detail/visbug/cdockenadnadldjbbgcallicgledbeoc)
+   - Open source browser design tools
+   - Simple as point, click & tinker
+   - Hover inspect styles, accessibility and alignment
+   - [Git page](https://github.com/GoogleChromeLabs/ProjectVisBug)
