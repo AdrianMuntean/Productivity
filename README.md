@@ -12,3 +12,5 @@ Everyone is welcomed to contribute
 ## TODO
 
   * Add Windows shortcuts
+  * Add Visual studio code shortcuts
+  * Add IntelliJIdea shortcuts

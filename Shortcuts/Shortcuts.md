@@ -56,7 +56,7 @@ Source: [Apple support](https://support.apple.com/en-us/HT201236)
 # GMail Shortcuts
 
 | Action | Windows / MacOS |
-|-|-|--------------|
+|-|--------------|
 | Open keyboard shortcut help | Shift + ? |
 | Select a series of messages | Shift |
 | Mark selected message as important | = |
