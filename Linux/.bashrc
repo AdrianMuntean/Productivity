@@ -15,8 +15,12 @@ alias cdt='cd $TOOLS'
 alias gt='git status'
 alias showalias='grep ^alias ~/.bashrc'
 alias addalias='vi ~/.bashrc'
+alias reloadrc='source ~/.bashrc'
 
 # work specific
 alias runserver='python manage.py runserver'
 alias buildfrontend='yarn build:dev'
 alias runfrontend='yarn start:dev'
+alias showmigrationsclassifieds='python manage.py showmigrations | sed -n '/classifieds/,/contenttypes/p''
+alias showmigrations='python manage.py showmigrations'
+alias activateenv='source env/bin/activate'

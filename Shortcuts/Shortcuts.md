@@ -42,9 +42,10 @@ Source: [Apple support](https://support.apple.com/en-us/HT201236)
 | Action | Windows | MacOS |
 |--------|---------|-------|
 | Refresh page | | Command + r |
-|Put cursor in the search bar| | Command + l |
+| Put cursor in the search bar| | Command + l |
 | Toggle developer tools | | Command + Option + i |
 | Toggle device toolbar in developer tools | | Command + Shift + m |
+| Clear console | Ctrl + l | Cmd + k |
 | Reopen the last closed tab | Ctrl + Shift + t | Command + Shift + t|
 | Add www and .com to a webpage | | Control + enter |
 | Open downloads | Ctrl + j | Command + Shift + j |
