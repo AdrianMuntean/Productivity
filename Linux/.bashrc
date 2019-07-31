@@ -4,8 +4,8 @@
 # git
 alias gt='git status'
 alias gitlog='git log --oneline'
-alias showunpusheddiff='git diff origin/master..HEAD'
-alias showunpushedcommits='git log origin/master..HEAD'
+alias gitshowunpusheddiff='git diff origin/master..HEAD'
+alias gitshowunpushedcommits='git log origin/master..HEAD'
 alias gitresethard='git reset --hard HEAD~1'
 alias gitresetsoft='git reset --soft HEAD~1'
 alias gitcm='git checkout master'

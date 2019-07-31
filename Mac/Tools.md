@@ -14,6 +14,10 @@ A popular open source alternative to Mac OS X Terminal.
 
 A better grep
 
+# [Karabinier](https://pqrs.org/osx/karabiner/)
+
+A powerful and stable keyboard customizer for macOS.
+
 #### Fine-Tune Settings
 
 Launch iTerm, open **iTerm > Preferences** or just <code>Cmd</code> + <code>,</code>
