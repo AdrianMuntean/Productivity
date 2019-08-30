@@ -3,7 +3,7 @@
 
 # git
 alias gt='git status'
-alias gitlog='git log --oneline'
+alias gitlog='git log --all --graph --decorate --oneline --simplify-by-decoration'
 alias gitshowunpusheddiff='git diff origin/master..HEAD'
 alias gitshowunpushedcommits='git log origin/master..HEAD'
 alias gitresethard='git reset --hard HEAD~1'
@@ -52,4 +52,26 @@ checkFrontend() {
         yarn format
         yarn lint:fix
         yarn verify
+}
+runquery() {
+        # runs a query on a local postgres db called datab with a specific user
+        psql -U $(whoami) -d explorer -c $1
+}
+connect_remote() {
+        # this helps connect to a remote db
+        # the url is something like postgres://username:longPassword@somehost.maybeamazon:5432/databasename
+        host_split_first_part=$(echo $1 | cut -d'@' -f 1)
+        host_split_second_part=$(echo $1 | cut -d'@' -f 2)
+        host=$(echo $host_split_second_part | cut -d':' -f 1)
+        echo "\e[1mhost: $host"
+        port=$(echo $host_split_second_part | cut -d':' -f 2 | cut -d'/' -f 1)
+        echo "\e[1mport: $port"
+        user=$(echo $host_split_first_part | cut -d':' -f 2 | cut -c3-)
+        echo "\e[1muser: $user"
+        database=$(echo $host_split_second_part | cut -d':' -f 2 | cut -d'/' -f 2)
+        echo "\e[1mdatabase: $database"
+        password=$(echo $host_split_first_part | cut -d':' -f 3)
+        echo "\n\e[1mpassword:  \e[31m$password\e[0m"
+
+        psql -h $host -p $port -U $user $database
 }
