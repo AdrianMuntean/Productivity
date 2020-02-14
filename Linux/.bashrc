@@ -1,6 +1,11 @@
 # .bashrc file under Windows  is found in /c/Users/username (after Git Bash is installed) - create it if is not there
 # need to set $SOURCE variable and $TOOLS
 
+# vars
+declare -A abbrev
+abbrev=(["bp-dev"]="site-development" ["another-abbv"]="site-development"
+["a-third-abbv-dev"]="site-development" ["b-dev"]="something-else")
+
 # git
 alias gt='git status'
 alias gitlog='git log --all --graph --decorate --oneline --simplify-by-decoration'
@@ -74,4 +79,8 @@ connect_remote() {
         echo "\n\e[1mpassword:  \e[31m$password\e[0m"
 
         psql -h $host -p $port -U $user $database
+}
+heroku_config() {
+        echo "${abbrev[$1]}"
+        heroku config -a "${abbrev[$1]}" | grep $2;
 }
