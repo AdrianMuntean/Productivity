@@ -80,7 +80,13 @@ connect_remote() {
 
         psql -h $host -p $port -U $user $database
 }
-heroku_config() {
+hg() {
+    if [[ -v "abbrev[$1]" ]]
+    then
         echo "${abbrev[$1]}"
         heroku config -a "${abbrev[$1]}" | grep $2;
+    else
+        echo "$1"
+        heroku config -a "$1" | grep $2
+    fi
 }
