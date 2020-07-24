@@ -1,5 +1,5 @@
 # .bashrc file under Windows  is found in /c/Users/username (after Git Bash is installed) - create it if is not there
-# need to set $SOURCE variable and $TOOLS
+# need to set $SOURCE, $TOOLS and $PROJECT vars
 
 # vars
 declare -A abbrev
@@ -39,6 +39,8 @@ gitcwb() { # git checkout working branch
 # general navigation and productivity
 alias cds='cd $SOURCE'
 alias cdt='cd $TOOLS'
+alias cdf='cd $PROJECT/frontend'
+alias cdb='cd $PROJECT/backend'
 alias gt='git status'
 alias showalias='grep '"'"'^alias\|()'"'"' ~/.bashrc'
 alias addalias='vi ~/.bashrc'
