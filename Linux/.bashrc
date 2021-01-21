@@ -53,6 +53,7 @@ alias buildfrontend='yarn build:dev'
 alias runfrontend='yarn start:dev'
 alias showmigrationsclassifieds='python manage.py showmigrations | sed -n '/classifieds/,/contenttypes/p''
 alias showmigrations='python manage.py showmigrations'
+alias shell='python manage.py shell'
 alias activateenv='source env/bin/activate'
 checkFrontend() {
         cd ~/directory with code
