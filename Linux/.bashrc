@@ -14,7 +14,10 @@ alias gitshowunpushedcommits='git log origin/master..HEAD'
 alias gitresethard='git reset --hard HEAD~1'
 alias gitresetsoft='git reset --soft HEAD~1'
 alias gitcm='git checkout master'
-alias gitpom='git pull origin master'
+alias gitpom='git checkout master && git pull origin master'
+alias gitcommitamend='git commit --amend'
+alias gitpush='git push origin $(git branch --show-current)'
+alias gitpushforce='git push -f origin $(git branch --show-current)'
 gitswb() { # git set working branch
         export WORKING_BRANCH="$1"
         echo "$1 is now set as WORKING_BRANCH"
@@ -47,7 +50,7 @@ alias addalias='vi ~/.bashrc'
 alias reloadrc='source ~/.bashrc'
 alias cditermscripts='cd /Users/adrianmuntean/Library/Application\ Support/iTerm2/Scripts'
 
-# work specific
+# work related
 alias runserver='python manage.py runserver'
 alias buildfrontend='yarn build:dev'
 alias runfrontend='yarn start:dev'
