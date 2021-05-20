@@ -18,6 +18,12 @@ alias gitpom='git checkout master && git pull origin master'
 alias gitcommitamend='git commit --amend'
 alias gitpush='git push origin $(git branch --show-current)'
 alias gitpushforce='git push -f origin $(git branch --show-current)'
+gitrebase() {
+       current_branch=$(git branch --show-current)
+       git checkout master && git pull origin master
+       git checkout $current_branch
+       git rebase master
+}
 gitswb() { # git set working branch
         export WORKING_BRANCH="$1"
         echo "$1 is now set as WORKING_BRANCH"
