@@ -18,7 +18,7 @@ Some really useful extensions I use:
    - An open-source research project from Stanford on helping users reduce their time online. 
    - It includes various tools like news feed blockers, comment hiders, and more
    - It syncs with the mobile app
- * [The great suspender](https://chrome.google.com/webstore/detail/the-great-suspender/klbibkeccnjlkjkiokjodocebajanakg)
+ * [The Marvellous Suspender](https://chrome.google.com/webstore/detail/the-marvellous-suspender/noogafoofpebimajpfpamcfhoaifemoa?hl=en)
    - Make your computer run smoothly by suspending the tabs you aren't using
    - A lightweight extension to reduce chrome's memory footprint. Perfect if you have a lot of tabs open at the same time.
    - Tabs that have not been viewed after a configurable length of time will be automagically suspended in the background
